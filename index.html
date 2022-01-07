@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/575c34d2d7.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1>Task List</h1>
+
+    <div class="toDoBody">
+        <div class="inputBox">
+            <select name="priority" id="priority">
+                <option value= 3 class="high">High</option>
+                <option value= 2 class="medium">Medium</option>
+                <option value= 1 class="low">Low</option>
+            </select>
+            <input type="text" class="input" id="input">
+            <button class="add">Add</button>
+        </div>
+        
+        <div class="list" id="list">
+            <!-- <div class="item low"> <h4>Task Item</h4> <button class="remove">X</button></div> -->
+        </div>
+
+    </div>
+    
+</body>
+
+<footer>
+    <p>All rights reserved &copy; 2022 Jesus Olaiz</p>
+
+    <div class="contact">
+        <a href="https://github.com/Mended-marlin"><i class="fab fa-github"></i>  GitHub</a>
+        <a href="https://twitter.com/Olaiz_Dev"><i class="fab fa-twitter-square"></i> Twitter</a>
+        <a href="https://www.instagram.com/heavy.breath/"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</html>

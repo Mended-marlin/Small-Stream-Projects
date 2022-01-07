@@ -1,0 +1,168 @@
+:root{
+    --main-list-bg-color :  #4F5D75;
+
+
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #2D3142;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+
+    font-size: 3rem;
+
+    color: white;
+}
+
+/* todo body styles */
+
+.toDoBody{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--main-list-bg-color);
+    margin: 3rem auto;
+
+    max-width: 80vw;
+    min-height: 70vh;
+
+    box-shadow: 0 0 10px #3E475C;
+    border-radius: 5px;
+}
+
+/* Input section styles */
+
+.input{
+    display:block;
+
+    margin: 0 0 0 auto;
+    padding: 2rem auto;
+
+    font-size: 2rem;
+
+    width: 90%;
+
+    border-style: none;
+    border-right: none;
+    border-left: none;
+}
+
+.add{
+    border-radius: 0 5px 5px 0;
+
+    border-style: none;
+    border-left: none;
+}
+
+#priority{
+    border-radius: 5px 0 0 5px;
+    border-style:none;
+    border-right: none;
+}
+
+#priority:hover,
+#priority:focus,
+.add:focus{
+    background-color: #d0d0d7;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row;
+
+    
+    margin: 1.5rem auto;
+    
+
+    width: 90%;
+}
+
+
+/* list body styles */
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+/* list item styles */
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: .5rem;
+    margin-left: -110%;
+
+    width: 95%;
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.644);
+
+    border-radius: 5px;
+
+    transition: all .35s ease-out;
+}
+
+
+.item h4{
+    font-size: 1.25rem;
+
+    margin: .75rem 0 .75rem 1rem;
+}
+
+.item button{
+    height: 2rem;
+    width: 2rem;
+
+    margin: auto .5rem auto 0;
+}
+
+
+/* priority classes */
+
+.high{
+    background-color: rgba(247, 38, 38, 0.589);  
+}
+
+.medium{
+    background-color: rgba(255, 255, 0, 0.575);
+}
+
+.low{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.contact a{
+    text-decoration: none;
+
+    color: white;
+}
+
+.contact a:hover,
+.contact a:focus{
+    color: rgb(25, 107, 25);
+}
+
+footer p{
+    color: white;
+}
